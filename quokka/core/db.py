@@ -23,11 +23,11 @@ class QuokkaTinyMongoClient(TinyMongoClient):
 class QuokkaDB(object):
 
     config = {}
-    system = 'tinydb'
+    system = 'mongo'
     folder = 'databases'
     host = 'localhost'
     port = 27017
-    name = 'quokka_db'
+    name = 'my_database'
     collections = {
         'index': 'index',
         'contents': 'contents',

@@ -523,17 +523,17 @@ QUOKKA:
   ## [ --- DATABASE --- ]
   DATABASE:
     ## TinyDB
-    system: tinydb
-    folder: databases
+    # system: tinydb
+    # folder: databases
 
     ## Mongo
-    # system: mongo
+    system: mongo
     ## If auth enabled pass user/pass in the db host URI mongo:// ...
-    # host: localhost
-    # port: 27017
+    host: 127.0.0.1
+    port: 27017
 
     ## Database name
-    name: quokka_db
+    name: my_database
     collections:
       index: index
       contents: contents
